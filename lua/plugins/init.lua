@@ -6,6 +6,10 @@ return {
       require "configs.conform"
     end,
   },
+  {
+    "folke/neodev.nvim",
+    opts = {}
+  }
 
   -- These are some examples, uncomment them if you want to see them work!
   -- {

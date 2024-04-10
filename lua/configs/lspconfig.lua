@@ -15,9 +15,14 @@ for _, lsp in ipairs(servers) do
   }
 end
 
--- typescript
-lspconfig.tsserver.setup {
-  on_attach = on_attach,
-  on_init = on_init,
-  capabilities = capabilities,
-}
+-- omnisharp 
+-- lspconfig.omnisharp.setup {
+--  cmd = { "omnisharp.cmd" },
+--  on_attach = on_attach,
+--  on_init = on_init,
+--  capabilities = capabilities,
+-- }
+
+-- csharp_ls 
+
+lspconfig.csharp_ls.setup {}
