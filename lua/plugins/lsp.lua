@@ -9,7 +9,8 @@ return {
         "css-lsp",
         "prettier",
         "omnisharp",
-        "csharp-language-server"
+        "csharp-language-server",
+        "netcoredbg",
       }
     }
   },

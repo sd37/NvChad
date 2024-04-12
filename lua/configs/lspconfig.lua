@@ -24,5 +24,4 @@ end
 -- }
 
 -- csharp_ls 
-
-lspconfig.csharp_ls.setup {}
+-- lspconfig.csharp_ls.setup {}
