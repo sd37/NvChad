@@ -28,7 +28,7 @@ return {
       {
         "theHamsta/nvim-dap-virtual-text",
         opts = {
-          virt_text_pos = "eol"
+          virt_text_pos = "eol",
         },
       },
       -- Lua adapter.
@@ -92,6 +92,20 @@ return {
           require("dap").step_out()
         end,
         desc = "Step Out",
+      },
+      {
+        "<leader>dx",
+        function()
+          require("dapui").close()
+        end,
+        desc = "Close DAP UI",
+      },
+      {
+        "<leader>dt",
+        function()
+          require("dapui").toggle()
+        end,
+        desc = "Toggle DAP UI",
       },
     },
     config = function()
